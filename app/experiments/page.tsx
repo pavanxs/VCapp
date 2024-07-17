@@ -8,7 +8,7 @@ import StepOne from "@/components/Steps/stepOne";
 
 export default function page() {
   return <div className="flex min-w-full ">
-    <SidebarNavigation  />
+    {/* <SidebarNavigation  /> */}
     <div className="flex flex-1 justify-center flex-col">
       <StepIndicatorHorizontal />
       <div className="flex flex-1 justify-center ">
