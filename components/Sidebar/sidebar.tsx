@@ -1,21 +1,11 @@
-import type { NextPage } from "next";
-import UserProfileCardSidebar from "./user-profile-card-sidebar";
 
-import { FC } from 'react';
-import { ArrowLeft, ArrowLeftIcon, ArrowRightIcon, CalendarIcon, ChevronRight, CirclePlus, Contact, Contact2, Contact2Icon, Database, LayoutDashboard, Logs, LogsIcon, MegaphoneIcon, Settings, User, Waypoints } from "lucide-react";
+
+import { CalendarIcon, ChevronRight, CirclePlus, Contact, Contact2, Contact2Icon, Database, LayoutDashboard, Logs, LogsIcon, MegaphoneIcon, Settings, User, Waypoints } from "lucide-react";
 import { Button } from "../ui/button";
-import Image from "next/image";
+
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
+
 
 interface Item {
   id: number;
