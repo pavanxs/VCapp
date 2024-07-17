@@ -15,20 +15,6 @@ interface Item {
 
 export default function SidebarNavigation() {
  
-  const items: Item[] = [
-    { id: 1, title: 'Item 1', Logo: 'Description 1' },
-    { id: 2, title: 'Item 2', Logo: 'Description 2' },
-    { id: 3, title: 'Item 3', Logo: 'Description 3' },
-    { id: 4, title: 'Item 1', Logo: 'Description 1' },
-    { id: 5, title: 'Item 2', Logo: 'Description 2' },
-    { id: 6, title: 'Item 3', Logo: 'Description 3' },
-  ];
-
-  const Campaigns: Item[] = [
-    { id: 1, title: 'Item 1', description: 'Description 1' },
-    { id: 2, title: 'Item 2', description: 'Description 2' },
-    { id: 3, title: 'Item 3', description: 'Description 3' },
-  ];
 
 
   return (
